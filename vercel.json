@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "bootselearning.net"
+        }
+      ],
+      "destination": "https://www.bootselearning.net/$1",
+      "permanent": true
+    }
+  ]
+}
